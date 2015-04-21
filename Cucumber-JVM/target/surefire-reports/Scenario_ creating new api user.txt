@@ -1,0 +1,74 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: creating new api user
+-------------------------------------------------------------------------------
+Tests run: 84, Failures: 10, Errors: 0, Skipped: 5, Time elapsed: 71.863 sec <<< FAILURE! - in Scenario: creating new api user
+Then verify user is on confirm page(Scenario: creating new user 1)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[User was successfully created.]> but was:<[Element Not Found]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.MyStepdefs.verify_user_is_on_confirm_page(MyStepdefs.java:145)
+	at ?.Then verify user is on confirm page(features/backgroundFeature.feature:22)
+
+Scenario: creating new user 1  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[User was successfully created.]> but was:<[Element Not Found]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.MyStepdefs.verify_user_is_on_confirm_page(MyStepdefs.java:145)
+	at ?.Then verify user is on confirm page(features/backgroundFeature.feature:22)
+
+Then verify user is on confirm page(Scenario: creating new user 2)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[User was successfully created.]> but was:<[Element Not Found]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.MyStepdefs.verify_user_is_on_confirm_page(MyStepdefs.java:145)
+	at ?.Then verify user is on confirm page(features/backgroundFeature.feature:40)
+
+Scenario: creating new user 2  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[User was successfully created.]> but was:<[Element Not Found]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.MyStepdefs.verify_user_is_on_confirm_page(MyStepdefs.java:145)
+	at ?.Then verify user is on confirm page(features/backgroundFeature.feature:40)
+
+Then verify user is on confirm page(Scenario: Second User creation)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[User was successfully created.]> but was:<[Element Not Found]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.MyStepdefs.verify_user_is_on_confirm_page(MyStepdefs.java:145)
+	at ?.Then verify user is on confirm page(features/dataTableFeature.feature:10)
+
+Scenario: Second User creation  Time elapsed: 0.002 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[User was successfully created.]> but was:<[Element Not Found]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.MyStepdefs.verify_user_is_on_confirm_page(MyStepdefs.java:145)
+	at ?.Then verify user is on confirm page(features/dataTableFeature.feature:10)
+
+Then verify user is on confirm page(Scenario: creating new user)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[User was successfully created.]> but was:<[Element Not Found]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.MyStepdefs.verify_user_is_on_confirm_page(MyStepdefs.java:145)
+	at ?.Then verify user is on confirm page(features/feature.feature:21)
+
+Scenario: creating new user  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[User was successfully created.]> but was:<[Element Not Found]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.MyStepdefs.verify_user_is_on_confirm_page(MyStepdefs.java:145)
+	at ?.Then verify user is on confirm page(features/feature.feature:21)
+
+Then verify user is on confirm page(| SecondUser | LastName | SecondUser@gmail.com | SecondUser | password12 | 1234567890 | Sushant Lok | 122002 | 1991 | jan | 21 | Female | Test User 2 |)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[User was successfully created.]> but was:<[Element Not Found]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.MyStepdefs.verify_user_is_on_confirm_page(MyStepdefs.java:145)
+	at ?.Then verify user is on confirm page(features/scenarioOutline.feature:20)
+
+| SecondUser | LastName | SecondUser@gmail.com | SecondUser | password12 | 1234567890 | Sushant Lok | 122002 | 1991 | jan | 21 | Female | Test User 2 |  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[User was successfully created.]> but was:<[Element Not Found]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.MyStepdefs.verify_user_is_on_confirm_page(MyStepdefs.java:145)
+	at ?.Then verify user is on confirm page(features/scenarioOutline.feature:20)
+

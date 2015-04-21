@@ -1,0 +1,5 @@
+steps\MyStepdefs.class
+pages\NewUserPageObject.class
+pages\HomePageObject.class
+steps\testSteps.class
+pages\ConfirmUserPageObject.class

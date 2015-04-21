@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: creating new api user" time="5.304" tests="84" errors="0" skipped="5" failures="10">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\bin"/>
+    <property name="java.vm.version" value="24.79-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Cucumber-JVM"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Cucumber-JVM"/>
+    <property name="java.runtime.version" value="1.7.0_79-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\RAVIND~1.KUM\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.3.1\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Skype\Phone\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\apache-maven-3.3.1\bin;C:\Program Files\TortoiseGit\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\ravinder.kumar"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="ravinder.kumar"/>
+    <property name="java.class.path" value="C:\apache-maven-3.3.1\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_79\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.7.0_79"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_79\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.3.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase name="Given I am in users page" classname="Scenario: creating new user 1" time="0.001"/>
+  <testcase name="Then I click on new user link" classname="Scenario: creating new user 1" time="0"/>
+  <testcase name="And enter user first name as FirstName" classname="Scenario: creating new user 1" time="0"/>
+  <testcase name="And enter user last name as LastName" classname="Scenario: creating new user 1" time="0"/>
+  <testcase name="And enter user email id as First.Last@gmail.com" classname="Scenario: creating new user 1" time="0"/>
+  <testcase name="And enter user username as UserName" classname="Scenario: creating new user 1" time="0"/>
+  <testcase name="And enter user password as Password" classname="Scenario: creating new user 1" time="0"/>
+  <testcase name="And enter user phone as 12345677891" classname="Scenario: creating new user 1" time="0"/>
+  <testcase name="And enter user address as TW Gurgaon" classname="Scenario: creating new user 1" time="0"/>
+  <testcase name="And enter user postcode as 122002" classname="Scenario: creating new user 1" time="0"/>
+  <testcase name="And enter user year of dob as 1991" classname="Scenario: creating new user 1" time="0"/>
+  <testcase name="And enter user month of dob as March" classname="Scenario: creating new user 1" time="0"/>
+  <testcase name="And enter user day of dob as 21" classname="Scenario: creating new user 1" time="0"/>
+  <testcase name="And enter user sex as Female" classname="Scenario: creating new user 1" time="0"/>
+  <testcase name="And enter user comments as attending vodqa" classname="Scenario: creating new user 1" time="0"/>
+  <testcase name="And click create user button" classname="Scenario: creating new user 1" time="0"/>
+  <testcase name="Then verify user is on confirm page" classname="Scenario: creating new user 1" time="0.001">
+    <failure message="expected:&lt;[User was successfully created.]&gt; but was:&lt;[Element Not Found]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[User was successfully created.]> but was:<[Element Not Found]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.MyStepdefs.verify_user_is_on_confirm_page(MyStepdefs.java:145)
+	at ✽.Then verify user is on confirm page(features/backgroundFeature.feature:22)
+]]></failure>
+  </testcase>
+  <testcase name="Scenario: creating new user 1" classname="Scenario: creating new user 1" time="0.001">
+    <failure message="expected:&lt;[User was successfully created.]&gt; but was:&lt;[Element Not Found]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[User was successfully created.]> but was:<[Element Not Found]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.MyStepdefs.verify_user_is_on_confirm_page(MyStepdefs.java:145)
+	at ✽.Then verify user is on confirm page(features/backgroundFeature.feature:22)
+]]></failure>
+  </testcase>
+  <testcase name="Given I am in users page" classname="Scenario: creating new user 2" time="0"/>
+  <testcase name="Then I click on new user link" classname="Scenario: creating new user 2" time="0"/>
+  <testcase name="And enter user first name as FirstName" classname="Scenario: creating new user 2" time="0"/>
+  <testcase name="And enter user last name as LastName" classname="Scenario: creating new user 2" time="0"/>
+  <testcase name="And enter user email id as First.Last@gmail.com" classname="Scenario: creating new user 2" time="0"/>
+  <testcase name="And enter user username as UserName" classname="Scenario: creating new user 2" time="0"/>
+  <testcase name="And enter user password as Password" classname="Scenario: creating new user 2" time="0"/>
+  <testcase name="And enter user phone as 12345677891" classname="Scenario: creating new user 2" time="0"/>
+  <testcase name="And enter user address as TW Gurgaon" classname="Scenario: creating new user 2" time="0"/>
+  <testcase name="And enter user postcode as 122002" classname="Scenario: creating new user 2" time="0"/>
+  <testcase name="And enter user year of dob as 1991" classname="Scenario: creating new user 2" time="0"/>
+  <testcase name="And enter user month of dob as March" classname="Scenario: creating new user 2" time="0"/>
+  <testcase name="And enter user day of dob as 21" classname="Scenario: creating new user 2" time="0"/>
+  <testcase name="And enter user sex as Female" classname="Scenario: creating new user 2" time="0"/>
+  <testcase name="And enter user comments as attending vodqa" classname="Scenario: creating new user 2" time="0"/>
+  <testcase name="And click create user button" classname="Scenario: creating new user 2" time="0"/>
+  <testcase name="Then verify user is on confirm page" classname="Scenario: creating new user 2" time="0.001">
+    <failure message="expected:&lt;[User was successfully created.]&gt; but was:&lt;[Element Not Found]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[User was successfully created.]> but was:<[Element Not Found]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.MyStepdefs.verify_user_is_on_confirm_page(MyStepdefs.java:145)
+	at ✽.Then verify user is on confirm page(features/backgroundFeature.feature:40)
+]]></failure>
+  </testcase>
+  <testcase name="Scenario: creating new user 2" classname="Scenario: creating new user 2" time="0.001">
+    <failure message="expected:&lt;[User was successfully created.]&gt; but was:&lt;[Element Not Found]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[User was successfully created.]> but was:<[Element Not Found]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.MyStepdefs.verify_user_is_on_confirm_page(MyStepdefs.java:145)
+	at ✽.Then verify user is on confirm page(features/backgroundFeature.feature:40)
+]]></failure>
+  </testcase>
+  <testcase name="Given I am in users page" classname="Scenario: Second User creation" time="0"/>
+  <testcase name="When I click on new user link" classname="Scenario: Second User creation" time="0"/>
+  <testcase name="And I enter user details as:" classname="Scenario: Second User creation" time="0"/>
+  <testcase name="And click create user button" classname="Scenario: Second User creation" time="0"/>
+  <testcase name="Then verify user is on confirm page" classname="Scenario: Second User creation" time="0.001">
+    <failure message="expected:&lt;[User was successfully created.]&gt; but was:&lt;[Element Not Found]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[User was successfully created.]> but was:<[Element Not Found]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.MyStepdefs.verify_user_is_on_confirm_page(MyStepdefs.java:145)
+	at ✽.Then verify user is on confirm page(features/dataTableFeature.feature:10)
+]]></failure>
+  </testcase>
+  <testcase name="Scenario: Second User creation" classname="Scenario: Second User creation" time="0.002">
+    <failure message="expected:&lt;[User was successfully created.]&gt; but was:&lt;[Element Not Found]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[User was successfully created.]> but was:<[Element Not Found]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.MyStepdefs.verify_user_is_on_confirm_page(MyStepdefs.java:145)
+	at ✽.Then verify user is on confirm page(features/dataTableFeature.feature:10)
+]]></failure>
+  </testcase>
+  <testcase name="Given I am in users page" classname="Scenario: creating new user" time="0"/>
+  <testcase name="Then I click on new user link" classname="Scenario: creating new user" time="0"/>
+  <testcase name="And enter user first name as FirstName2" classname="Scenario: creating new user" time="0"/>
+  <testcase name="And enter user last name as LastName2" classname="Scenario: creating new user" time="0"/>
+  <testcase name="And enter user email id as First2.Last2@gmail.com" classname="Scenario: creating new user" time="0"/>
+  <testcase name="And enter user username as UserName" classname="Scenario: creating new user" time="0"/>
+  <testcase name="And enter user password as Password" classname="Scenario: creating new user" time="0"/>
+  <testcase name="And enter user phone as 12345677891" classname="Scenario: creating new user" time="0"/>
+  <testcase name="And enter user address as TW Gurgaon" classname="Scenario: creating new user" time="0"/>
+  <testcase name="And enter user postcode as 122002" classname="Scenario: creating new user" time="0"/>
+  <testcase name="And enter user year of dob as 1991" classname="Scenario: creating new user" time="0"/>
+  <testcase name="And enter user month of dob as March" classname="Scenario: creating new user" time="0"/>
+  <testcase name="And enter user day of dob as 21" classname="Scenario: creating new user" time="0"/>
+  <testcase name="And enter user sex as Female" classname="Scenario: creating new user" time="0"/>
+  <testcase name="And enter user comments as attending vodqa" classname="Scenario: creating new user" time="0"/>
+  <testcase name="And click create user button" classname="Scenario: creating new user" time="0"/>
+  <testcase name="Then verify user is on confirm page" classname="Scenario: creating new user" time="0">
+    <failure message="expected:&lt;[User was successfully created.]&gt; but was:&lt;[Element Not Found]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[User was successfully created.]> but was:<[Element Not Found]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.MyStepdefs.verify_user_is_on_confirm_page(MyStepdefs.java:145)
+	at ✽.Then verify user is on confirm page(features/feature.feature:21)
+]]></failure>
+  </testcase>
+  <testcase name="Scenario: creating new user" classname="Scenario: creating new user" time="0">
+    <failure message="expected:&lt;[User was successfully created.]&gt; but was:&lt;[Element Not Found]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[User was successfully created.]> but was:<[Element Not Found]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.MyStepdefs.verify_user_is_on_confirm_page(MyStepdefs.java:145)
+	at ✽.Then verify user is on confirm page(features/feature.feature:21)
+]]></failure>
+  </testcase>
+  <testcase name="Given I am in users page" classname="| SecondUser | LastName | SecondUser@gmail.com | SecondUser | password12 | 1234567890 | Sushant Lok | 122002 | 1991 | jan | 21 | Female | Test User 2 |" time="0"/>
+  <testcase name="Then I click on new user link" classname="| SecondUser | LastName | SecondUser@gmail.com | SecondUser | password12 | 1234567890 | Sushant Lok | 122002 | 1991 | jan | 21 | Female | Test User 2 |" time="0.001"/>
+  <testcase name="And enter user first name as SecondUser" classname="| SecondUser | LastName | SecondUser@gmail.com | SecondUser | password12 | 1234567890 | Sushant Lok | 122002 | 1991 | jan | 21 | Female | Test User 2 |" time="0"/>
+  <testcase name="And enter user last name as LastName" classname="| SecondUser | LastName | SecondUser@gmail.com | SecondUser | password12 | 1234567890 | Sushant Lok | 122002 | 1991 | jan | 21 | Female | Test User 2 |" time="0"/>
+  <testcase name="And enter user email id as SecondUser@gmail.com" classname="| SecondUser | LastName | SecondUser@gmail.com | SecondUser | password12 | 1234567890 | Sushant Lok | 122002 | 1991 | jan | 21 | Female | Test User 2 |" time="0"/>
+  <testcase name="And enter user username as SecondUser" classname="| SecondUser | LastName | SecondUser@gmail.com | SecondUser | password12 | 1234567890 | Sushant Lok | 122002 | 1991 | jan | 21 | Female | Test User 2 |" time="0"/>
+  <testcase name="And enter user password as password12" classname="| SecondUser | LastName | SecondUser@gmail.com | SecondUser | password12 | 1234567890 | Sushant Lok | 122002 | 1991 | jan | 21 | Female | Test User 2 |" time="0"/>
+  <testcase name="And enter user phone as 1234567890" classname="| SecondUser | LastName | SecondUser@gmail.com | SecondUser | password12 | 1234567890 | Sushant Lok | 122002 | 1991 | jan | 21 | Female | Test User 2 |" time="0"/>
+  <testcase name="And enter user address as Sushant Lok" classname="| SecondUser | LastName | SecondUser@gmail.com | SecondUser | password12 | 1234567890 | Sushant Lok | 122002 | 1991 | jan | 21 | Female | Test User 2 |" time="0.001"/>
+  <testcase name="And enter user postcode as 122002" classname="| SecondUser | LastName | SecondUser@gmail.com | SecondUser | password12 | 1234567890 | Sushant Lok | 122002 | 1991 | jan | 21 | Female | Test User 2 |" time="0"/>
+  <testcase name="And enter user year of dob as 1991" classname="| SecondUser | LastName | SecondUser@gmail.com | SecondUser | password12 | 1234567890 | Sushant Lok | 122002 | 1991 | jan | 21 | Female | Test User 2 |" time="0"/>
+  <testcase name="And enter user month of dob as jan" classname="| SecondUser | LastName | SecondUser@gmail.com | SecondUser | password12 | 1234567890 | Sushant Lok | 122002 | 1991 | jan | 21 | Female | Test User 2 |" time="0.001"/>
+  <testcase name="And enter user day of dob as 21" classname="| SecondUser | LastName | SecondUser@gmail.com | SecondUser | password12 | 1234567890 | Sushant Lok | 122002 | 1991 | jan | 21 | Female | Test User 2 |" time="0"/>
+  <testcase name="And enter user sex as Female" classname="| SecondUser | LastName | SecondUser@gmail.com | SecondUser | password12 | 1234567890 | Sushant Lok | 122002 | 1991 | jan | 21 | Female | Test User 2 |" time="0"/>
+  <testcase name="And enter user comments as Test User 2" classname="| SecondUser | LastName | SecondUser@gmail.com | SecondUser | password12 | 1234567890 | Sushant Lok | 122002 | 1991 | jan | 21 | Female | Test User 2 |" time="0"/>
+  <testcase name="And click create user button" classname="| SecondUser | LastName | SecondUser@gmail.com | SecondUser | password12 | 1234567890 | Sushant Lok | 122002 | 1991 | jan | 21 | Female | Test User 2 |" time="0"/>
+  <testcase name="Then verify user is on confirm page" classname="| SecondUser | LastName | SecondUser@gmail.com | SecondUser | password12 | 1234567890 | Sushant Lok | 122002 | 1991 | jan | 21 | Female | Test User 2 |" time="0.001">
+    <failure message="expected:&lt;[User was successfully created.]&gt; but was:&lt;[Element Not Found]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[User was successfully created.]> but was:<[Element Not Found]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.MyStepdefs.verify_user_is_on_confirm_page(MyStepdefs.java:145)
+	at ✽.Then verify user is on confirm page(features/scenarioOutline.feature:20)
+]]></failure>
+  </testcase>
+  <testcase name="| SecondUser | LastName | SecondUser@gmail.com | SecondUser | password12 | 1234567890 | Sushant Lok | 122002 | 1991 | jan | 21 | Female | Test User 2 |" classname="| SecondUser | LastName | SecondUser@gmail.com | SecondUser | password12 | 1234567890 | Sushant Lok | 122002 | 1991 | jan | 21 | Female | Test User 2 |" time="0.001">
+    <failure message="expected:&lt;[User was successfully created.]&gt; but was:&lt;[Element Not Found]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[User was successfully created.]> but was:<[Element Not Found]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.MyStepdefs.verify_user_is_on_confirm_page(MyStepdefs.java:145)
+	at ✽.Then verify user is on confirm page(features/scenarioOutline.feature:20)
+]]></failure>
+  </testcase>
+  <testcase name="Given I am a new users page" classname="Scenario: creating new api user" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Scenario Outline: Third new user                  &amp#27;[90m# features/scenarioOutline.feature:24&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am in users page&amp#27;[0m                        &amp#27;[90m# MyStepdefs.I_am_in_users_page()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI click on new user link&amp#27;[0m                   &amp#27;[90m# MyStepdefs.I_click_on_new_user_link()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter user first name as &amp#27;[0m&amp#27;[32m&amp#27;[1mSecondUser&amp#27;[0m         &amp#27;[90m# MyStepdefs.enter_user_first_name_as(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter user last name as &amp#27;[0m&amp#27;[32m&amp#27;[1mLastName&amp#27;[0m            &amp#27;[90m# MyStepdefs.enter_user_last_name_as(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter user email id as &amp#27;[0m&amp#27;[32m&amp#27;[1mSecondUser@gmail.com&amp#27;[0m &amp#27;[90m# MyStepdefs.enter_user_email_id_as(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter user username as &amp#27;[0m&amp#27;[32m&amp#27;[1mSecondUser&amp#27;[0m           &amp#27;[90m# MyStepdefs.enter_user_username_as(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter user password as &amp#27;[0m&amp#27;[32m&amp#27;[1mpassword12&amp#27;[0m           &amp#27;[90m# MyStepdefs.enter_user_password_as(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter user phone as &amp#27;[0m&amp#27;[32m&amp#27;[1m1234567890&amp#27;[0m              &amp#27;[90m# MyStepdefs.enter_user_phone_as(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter user address as &amp#27;[0m&amp#27;[32m&amp#27;[1mSushant Lok&amp#27;[0m           &amp#27;[90m# MyStepdefs.enter_user_address_as(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter user postcode as &amp#27;[0m&amp#27;[32m&amp#27;[1m122002&amp#27;[0m               &amp#27;[90m# MyStepdefs.enter_user_postcode_as(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter user year of dob as &amp#27;[0m&amp#27;[32m&amp#27;[1m1991&amp#27;[0m              &amp#27;[90m# MyStepdefs.enter_user_year_of_dob_as(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter user month of dob as &amp#27;[0m&amp#27;[32m&amp#27;[1mjan&amp#27;[0m              &amp#27;[90m# MyStepdefs.enter_user_month_of_dob_as(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter user day of dob as &amp#27;[0m&amp#27;[32m&amp#27;[1m21&amp#27;[0m                 &amp#27;[90m# MyStepdefs.enter_user_day_of_dob_as(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter user sex as &amp#27;[0m&amp#27;[32m&amp#27;[1mFemale&amp#27;[0m                    &amp#27;[90m# MyStepdefs.enter_user_sex_as(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32menter user comments as &amp#27;[0m&amp#27;[32m&amp#27;[1mTest User 2&amp#27;[0m          &amp#27;[90m# MyStepdefs.enter_user_comments_as(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick create user button&amp#27;[0m                    &amp#27;[90m# MyStepdefs.click_create_user_button()&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mverify user is on confirm page&amp#27;[0m             &amp#27;[90m# MyStepdefs.verify_user_is_on_confirm_page()&amp#27;[0m
+      &amp#27;[31morg.junit.ComparisonFailure: expected:<[User was successfully created.]> but was:<[Element Not Found]>
+      	at org.junit.Assert.assertEquals(Assert.java:115)
+      	at org.junit.Assert.assertEquals(Assert.java:144)
+      	at steps.MyStepdefs.verify_user_is_on_confirm_page(MyStepdefs.java:145)
+      	at ?.Then verify user is on confirm page(features/scenarioOutline.feature:20)
+      &amp#27;[0m
+Feature: Simpletest user feature file
+]]></system-out>
+  </testcase>
+  <testcase name="When I click on new page user link" classname="Scenario: creating new api user" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And enter first user first name as FirstName2" classname="Scenario: creating new api user" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then verify users is on confirm page" classname="Scenario: creating new api user" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: creating new api user" classname="Scenario: creating new api user" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: creating new api user" classname="Scenario: creating new api user" time="5.291"/>
+</testsuite>
